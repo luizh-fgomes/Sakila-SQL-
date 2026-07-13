@@ -1,0 +1,13 @@
+--Selecionando as tabelas (actor,address e film)
+
+SELECT * FROM actor;
+
+SELECT * FROM address;
+
+SELECT * FROM film;
+
+SELECT film_id,title FROM film;
+
+SELECT address_id,address,district FROM address;
+
+SELECT actor_id,first_name,last_name FROM actor;
