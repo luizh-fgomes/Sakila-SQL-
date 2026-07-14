@@ -1,0 +1,17 @@
+--Usando REGEXP (Expressões Regulares)
+
+SELECT * FROM actor
+WHERE first_name REGEXP 'A';
+
+SELECT * FROM actor
+WHERE first_name REGEXP '^a';
+
+SELECT * FROM actor
+WHERE first_name REGEXP '^a|d';
+
+SELECT * FROM actor
+WHERE first_name REGEXP '^a|^d|^r'
+ORDER BY first_name ASC;
+
+SELECT * FROM actor
+WHERE first_name REGEXP '^[gcr]a';
