@@ -1,0 +1,17 @@
+--Usando o ORDER BY
+
+SELECT * FROM actor
+ORDER BY first_name ASC;
+
+SELECT actor_id,first_name,last_update FROM actor
+ORDER BY first_name ASC;
+
+SELECT address_id,address,district FROM address
+ORDER BY address_id ASC;
+
+SELECT address_id,address,district FROM address
+ORDER BY address_id DESC;
+
+SELECT *
+FROM actor
+ORDER BY LENGTH(first_name);
