@@ -1,0 +1,4 @@
+--Usando IS NULL
+
+SELECT * FROM address
+WHERE address2 IS NULL;
